@@ -223,7 +223,7 @@ while True:
             
         elif dealers_hand.value > 21:
             
-            dealers_busts(players_hand,dealers_hand,playersChips)
+            dealer_busts(players_hand,dealers_hand,playersChips)
             
         elif dealers_hand.value == players_hand.value:
             push(players_hand,dealers_hand)
